@@ -616,7 +616,22 @@ function initDB() {
         status: "active",
         lastLogin: null,
         isAdmin: true
-      }
+      },
+      {
+  id: "USR_002",
+  name: "Brunache Lovely Smith",
+  email: "brunachelovelysmithe@gmail.com",
+  password: "brunache009",
+  accessCode: "brunache009",
+  registeredAt: "2026-10-08",
+  course: "ia",
+  progress: {
+    completed: [],
+    lastVideo: 0,
+    lastActivity: null
+  },
+  status: "active"
+  }
     ];
     setDB('users', users);
     return users;

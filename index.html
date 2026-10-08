@@ -618,20 +618,18 @@ function initDB() {
         isAdmin: true
       },
       {
-  id: "USR_003",
-  name: "Marie Lovely Joseph",
-  email: "marielovelyjoseph@gmail.com",
-  password: "marie009",
-  accessCode: "marie009",
-  registeredAt: "0102030405",
-  course: "ia",
-  progress: {
-    completed: [],
-    lastVideo: 0,
-    lastActivity: null
-  },
-  status: "active"
-  }
+        id: "USR_ADMIN",
+        name: "Administrateur009",
+        email: "admin@fbd009.com",
+        password: "admin009",
+        accessCode: "0102030405",
+        registeredAt: "2026-01-01",
+        course: null,
+        progress: {completed: [], lastVideo: 0, lastActivity: null},
+        status: "active",
+        lastLogin: null,
+        isAdmin: true
+        }
    ];
     setDB('users', users);
     return users;
